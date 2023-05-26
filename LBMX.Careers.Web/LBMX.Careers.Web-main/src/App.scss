@@ -1,0 +1,24 @@
+@import './styles/variables.scss';
+
+.content {
+  padding: 2em;
+}
+
+// table styles
+.div-table {
+  display: table;
+}
+
+.div-row {
+  display: table-row;
+  &.header {
+    font-weight: bold;
+  }
+}
+
+.div-cell {
+  display: table-cell;
+  padding: 0.5em;
+}
+
+// form styles
