@@ -22,3 +22,34 @@
 }
 
 // form styles
+//Desktop site
+
+input [type=text], select, input[type=submit],textarea, input[type=date] {
+  width: 50%;
+
+}
+
+div .form-group{
+  margin-bottom:16px;
+}
+
+label{
+  margin-bottom: 4px;
+}
+button{
+  margin: 8px;
+}
+
+
+//mobile site 
+@media screen and (max-width: 600px) {
+  div .form-group{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  div .form-group{
+    width: 100%;
+  }
+}
